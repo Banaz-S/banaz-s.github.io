@@ -7,5 +7,15 @@ document.querySelectorAll(".nav-links a").forEach((anchor) => {
         behavior: "smooth",
       });
     }
+    // close menu after clicking
+    document.querySelector(".nav-links").classList.remove("show");
   });
+});
+
+// Toggle hamburger menu
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
 });
