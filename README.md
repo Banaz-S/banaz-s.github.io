@@ -17,8 +17,7 @@ My personal portfolio website showcasing my skills, projects, and contact inform
 
 ## 🖥️ Live Demo
 
-[View Portfolio on GitHub Pages](https://yourusername.github.io/portfolio/)  
-_(replace `yourusername` with your GitHub username)_
+[View Portfolio on GitHub Pages](https://banaz-s.github.io/)
 
 ## 💌 Contact
 
