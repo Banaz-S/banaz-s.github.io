@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "My personal portfolio website showcasing my skills, projects, and contact information as a junior front-end developer.",
+  "main": "index.js",
+  "authors": {
+    "name": "Banaz Sleman",
+    "email": "banazsleman2004@gmail.com"
+  },
+  "repository": "banaz-s.github.io",
+  "scripts": {
+    "dev": "vuepress dev src/config",
+    "build": "vuepress build src/config"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

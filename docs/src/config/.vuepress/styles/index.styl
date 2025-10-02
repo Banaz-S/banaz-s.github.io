@@ -1,0 +1,279 @@
+// Custom styles for the portfolio
+
+// Override VuePress default green colors to match blue/purple theme
+.navbar .nav-link.active,
+.navbar .nav-link.router-link-active {
+  border-bottom-color: #667eea !important;
+}
+
+.navbar .nav-link:hover {
+  color: #667eea !important;
+}
+
+// VuePress default theme overrides
+.theme-default-content:not(.custom) > h1,
+.theme-default-content:not(.custom) > h2,
+.theme-default-content:not(.custom) > h3,
+.theme-default-content:not(.custom) > h4,
+.theme-default-content:not(.custom) > h5,
+.theme-default-content:not(.custom) > h6 {
+  border-bottom-color: #667eea;
+}
+
+// Sidebar active links
+.sidebar .sidebar-link.active {
+  border-left-color: #667eea !important;
+  color: #667eea !important;
+}
+
+.sidebar .sidebar-link:hover {
+  color: #667eea !important;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+// Ensure hero section text stays white - strongest overrides
+.hero h1,
+.hero h2,
+.hero p,
+.hero * {
+  color: white !important;
+}
+
+.hero .btn {
+  color: white !important;
+}
+
+// Override VuePress theme with most specific selectors
+.theme-default-content .hero h1,
+.theme-default-content .hero h2,
+.theme-default-content .hero p {
+  color: white !important;
+}
+
+// Force white text with maximum specificity
+div.hero h1,
+div.hero h2,
+div.hero p {
+  color: white !important;
+}
+
+// Override any VuePress theme styles that might affect hero text
+.hero h1 {
+  color: white !important;
+  font-size: 3rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: bold !important;
+}
+
+.hero h2 {
+  color: white !important;
+  font-size: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  opacity: 0.9 !important;
+}
+
+.hero p {
+  color: white !important;
+  font-size: 1.1rem !important;
+  margin-bottom: 2rem !important;
+  max-width: 600px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  line-height: 1.6 !important;
+}
+
+// Nuclear option - override everything in hero section (but exclude contact icons)
+.hero *:not(.contact-icons):not(.contact-icons *) {
+  color: white !important;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Contact page styles
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.contact-icons a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #667eea;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  background: #764ba2;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+// Ensure contact icons are not affected by hero overrides
+.contact-icons i {
+  color: white !important;
+}
+
+// Works page styles
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.work-item {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.work-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+// Override works section links and content colors
+.theme-default-content a {
+  color: #667eea !important;
+}
+
+.theme-default-content a:hover {
+  color: #764ba2 !important;
+}
+
+// Works page specific styling
+.theme-default-content h1,
+.theme-default-content h2,
+.theme-default-content h3 {
+  color: #667eea !important;
+}
+
+// Override VuePress default theme colors in content
+.theme-default-content {
+  color: #2c3e50;
+}
+
+// Ensure all links in works section use blue theme
+.content a {
+  color: #667eea !important;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #764ba2 !important;
+  text-decoration: underline;
+}
+
+// Next/Previous navigation arrows in works section
+.page-nav .inner {
+  border-top-color: #667eea !important;
+}
+
+.page-nav a {
+  color: #667eea !important;
+  border-color: #667eea !important;
+}
+
+.page-nav a:hover {
+  color: #764ba2 !important;
+  border-color: #764ba2 !important;
+}
+
+// VuePress page navigation styling
+.theme-default-content .page-nav {
+  border-top: 1px solid #667eea;
+  padding-top: 1rem;
+}
+
+.theme-default-content .page-nav .inner {
+  border-top: none;
+}
+
+.theme-default-content .page-nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #667eea;
+  border-radius: 4px;
+  color: #667eea;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.theme-default-content .page-nav a:hover {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
