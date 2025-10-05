@@ -1,6 +1,7 @@
 # dependencies
 node_modules/
 .cache/
+
 # logs
 npm-debug.log*
 yarn-debug.log*
@@ -16,6 +17,12 @@ coverage/
 run/
 logs/
 pids/
+
+# VuePress build output
+src/config/.vuepress/dist/
+src/config/.vuepress/.temp/
+config/.vuepress/dist/
+config/.vuepress/.temp/
 
 # local configs
 config.local.js
