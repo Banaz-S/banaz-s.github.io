@@ -2,6 +2,10 @@ module.exports = {
   title: "Banaz Sleman | Portfolio",
   description: "Front-End Developer & Software Engineering Student",
   base: "/",
+  head: [
+    ["link", { rel: "stylesheet", href: "/css/style.css" }],
+    ["script", { src: "/js/script.js", defer: true }],
+  ],
 
   themeConfig: {
     nav: [
