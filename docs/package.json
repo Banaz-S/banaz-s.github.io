@@ -9,11 +9,13 @@
   },
   "repository": "banaz-s.github.io",
   "scripts": {
-    "dev": "vuepress dev src/config",
-    "build": "vuepress build src/config"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "npm run build && gh-pages -d src/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "vuepress": "^1.5.3"
   }
 }

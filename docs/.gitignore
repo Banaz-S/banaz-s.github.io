@@ -10,6 +10,12 @@ yarn-error.log*
 # OS
 .DS_Store
 
+# VuePress build output - THIS IS IMPORTANT!
+src/.vuepress/dist/
+src/.vuepress/.temp/
+.temp/
+dist/
+
 # build output
 basement_dist/
 coverage/
@@ -17,12 +23,6 @@ coverage/
 run/
 logs/
 pids/
-
-# VuePress build output
-src/config/.vuepress/dist/
-src/config/.vuepress/.temp/
-config/.vuepress/dist/
-config/.vuepress/.temp/
 
 # local configs
 config.local.js
