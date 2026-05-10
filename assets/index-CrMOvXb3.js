@@ -145,7 +145,7 @@ Error generating stack: `+e.message+`
               leading-relaxed\r
               max-w-2xl\r
               mb-10\r
-            `,children:`Software Engineering and frontend developer passionate about building modern, responsive, and user-friendly web applications using React, Tailwind CSS, and modern web technologies.`}),(0,W.jsxs)(du.div,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:1.2},className:`flex flex-wrap gap-5`,children:[(0,W.jsx)(`button`,{onClick:()=>{let e=document.getElementById(`projects`);e&&e.scrollIntoView({behavior:`smooth`})},className:`\r
+            `,children:`Software Engineer and frontend developer passionate about building modern, responsive, and user-friendly web applications using React, Tailwind CSS, and modern web technologies.`}),(0,W.jsxs)(du.div,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:1.2},className:`flex flex-wrap gap-5`,children:[(0,W.jsx)(`button`,{onClick:()=>{let e=document.getElementById(`projects`);e&&e.scrollIntoView({behavior:`smooth`})},className:`\r
                 px-8\r
                 py-4\r
                 rounded-full\r
@@ -174,7 +174,7 @@ Error generating stack: `+e.message+`
                 hover:scale-110\r
                 transition-all\r
                 duration-300\r
-              `,children:(0,W.jsx)(Ru,{})}),(0,W.jsx)(`a`,{href:`https://linkedin.com`,target:`_blank`,className:`\r
+              `,children:(0,W.jsx)(Ru,{})}),(0,W.jsx)(`a`,{href:`https://linkedin.com/in/banaz-sleman-b6b181256`,target:`_blank`,className:`\r
                 text-3xl\r
                 text-black/70 dark:text-white/70\r
                 hover:text-black hover:dark:text-white \r
@@ -228,7 +228,7 @@ Error generating stack: `+e.message+`
         py-32\r
         flex\r
         items-center\r
-      `,children:(0,W.jsxs)(`div`,{className:`max-w-7xl mx-auto w-full`,children:[(0,W.jsx)(Hu,{subtitle:`Who I Am`,title:`About Me`}),(0,W.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-20 items-center`,children:[(0,W.jsxs)(du.div,{initial:{opacity:0,x:-80},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.8},children:[(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 leading-relaxed text-lg mb-8`,children:`I'm a Software Engineering and frontend developer passionate about building modern, responsive, and user-friendly applications.`}),(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 leading-relaxed text-lg mb-8`,children:`I have experience working with React, Tailwind CSS, REST APIs, PostgreSQL, and responsive web design through real-world projects and internship experience.`}),(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 leading-relaxed text-lg`,children:`My goal is to create high-quality digital experiences that are both visually appealing and technically strong.`})]}),(0,W.jsx)(du.div,{initial:{opacity:0,x:80},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.8},className:`\r
+      `,children:(0,W.jsxs)(`div`,{className:`max-w-7xl mx-auto w-full`,children:[(0,W.jsx)(Hu,{subtitle:`Who I Am`,title:`About Me`}),(0,W.jsxs)(`div`,{className:`grid lg:grid-cols-2 gap-20 items-center`,children:[(0,W.jsxs)(du.div,{initial:{opacity:0,x:-80},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.8},children:[(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 leading-relaxed text-lg mb-8`,children:`I'm a Software Engineer and frontend developer passionate about building modern, responsive, and user-friendly applications.`}),(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 leading-relaxed text-lg mb-8`,children:`I have experience working with React, Tailwind CSS, REST APIs, and responsive web design through real-world projects and internship experience.`}),(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 leading-relaxed text-lg`,children:`My goal is to create high-quality digital experiences that are both visually appealing and technically strong.`})]}),(0,W.jsx)(du.div,{initial:{opacity:0,x:80},whileInView:{opacity:1,x:0},viewport:{once:!0},transition:{duration:.8},className:`\r
               grid\r
               grid-cols-2\r
               gap-6\r
@@ -307,7 +307,7 @@ border-black/10 dark:border-white/10                  bg-black/5 dark:bg-white/5
         `,children:(0,W.jsx)(`h2`,{className:`\r
             text-5xl\r
             font-black\r
-            text-black/20 dark:text-white/20\r
+            text-white/20\r
           `,children:e.title})}),(0,W.jsxs)(`div`,{className:`relative z-10 p-8`,children:[(0,W.jsx)(`p`,{className:`text-cyan-400 mb-4`,children:e.subtitle}),(0,W.jsx)(`h3`,{className:`text-3xl font-bold mb-6`,children:e.title}),(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 leading-relaxed mb-8`,children:e.description}),(0,W.jsx)(`div`,{className:`flex flex-wrap gap-3 mb-8`,children:e.tech.map(e=>(0,W.jsx)(`span`,{className:`\r
                 px-4\r
                 py-2\r
@@ -382,10 +382,10 @@ border-black/10 dark:border-white/10                  bg-black/5 dark:bg-white/5
             backdrop-blur-xl\r
           `,children:(0,W.jsxs)(`div`,{className:`space-y-8`,children:[(0,W.jsxs)(`div`,{children:[(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 mb-2`,children:`Email`}),(0,W.jsx)(`a`,{href:`mailto:banazsleman2004@gmail.com`,className:`\r
                   text-xl md:text-2xl\r
-                  font-bold\r
+                  font-medium\r
                   hover:text-cyan-400\r
                   transition-all\r
-                `,children:`banazsleman2004@gmail.com`})]}),(0,W.jsxs)(`div`,{children:[(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 mb-2`,children:`Location`}),(0,W.jsx)(`h3`,{className:`text-xl md:text-2xl font-bold`,children:`Erbil, Kurdistan, Iraq`})]}),(0,W.jsxs)(`div`,{className:`flex flex-wrap gap-5 pt-6`,children:[(0,W.jsx)(`a`,{href:`https://github.com/Banaz-S`,target:`_blank`,className:`\r
+                `,children:`banazsleman2004@gmail.com`})]}),(0,W.jsxs)(`div`,{children:[(0,W.jsx)(`p`,{className:`text-black/70 dark:text-white/70 mb-2`,children:`Location`}),(0,W.jsx)(`h3`,{className:`text-xl md:text-2xl font-medium`,children:`Erbil, Kurdistan, Iraq`})]}),(0,W.jsxs)(`div`,{className:`flex flex-wrap gap-5 pt-6`,children:[(0,W.jsx)(`a`,{href:`https://github.com/Banaz-S`,target:`_blank`,className:`\r
                   px-8\r
                   py-4\r
                   rounded-full\r
