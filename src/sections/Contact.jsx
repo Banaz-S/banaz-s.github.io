@@ -46,7 +46,7 @@ const Contact = () => {
               <a
                 href="mailto:banazsleman2004@gmail.com"
                 className="
-                  text-2xl
+                  text-xl md:text-2xl
                   font-bold
                   hover:text-cyan-400
                   transition-all
@@ -59,7 +59,9 @@ const Contact = () => {
             <div>
               <p className="text-black/70 dark:text-white/70 mb-2">Location</p>
 
-              <h3 className="text-2xl font-bold">Erbil, Kurdistan, Iraq</h3>
+              <h3 className="text-xl md:text-2xl font-bold">
+                Erbil, Kurdistan, Iraq
+              </h3>
             </div>
 
             <div className="flex flex-wrap gap-5 pt-6">

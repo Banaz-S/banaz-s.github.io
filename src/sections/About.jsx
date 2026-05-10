@@ -59,7 +59,7 @@ const About = () => {
                 text: "Years Learning Frontend",
               },
               {
-                number: "3+",
+                number: "2+",
                 text: "Major Projects",
               },
               {
