@@ -56,7 +56,7 @@ const ProjectCard = ({ project, index }) => {
           className="
             text-5xl
             font-black
-            text-black/20 dark:text-white/20
+            text-white/20
           "
         >
           {project.title}

@@ -25,14 +25,14 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <p className="text-black/70 dark:text-white/70 leading-relaxed text-lg mb-8">
-              I'm a Software Engineering and frontend developer passionate about
+              I'm a Software Engineer and frontend developer passionate about
               building modern, responsive, and user-friendly applications.
             </p>
 
             <p className="text-black/70 dark:text-white/70 leading-relaxed text-lg mb-8">
-              I have experience working with React, Tailwind CSS, REST APIs,
-              PostgreSQL, and responsive web design through real-world projects
-              and internship experience.
+              I have experience working with React, Tailwind CSS, REST APIs, and
+              responsive web design through real-world projects and internship
+              experience.
             </p>
 
             <p className="text-black/70 dark:text-white/70 leading-relaxed text-lg">

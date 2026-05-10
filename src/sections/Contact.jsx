@@ -47,7 +47,7 @@ const Contact = () => {
                 href="mailto:banazsleman2004@gmail.com"
                 className="
                   text-xl md:text-2xl
-                  font-bold
+                  font-medium
                   hover:text-cyan-400
                   transition-all
                 "
@@ -59,7 +59,7 @@ const Contact = () => {
             <div>
               <p className="text-black/70 dark:text-white/70 mb-2">Location</p>
 
-              <h3 className="text-xl md:text-2xl font-bold">
+              <h3 className="text-xl md:text-2xl font-medium">
                 Erbil, Kurdistan, Iraq
               </h3>
             </div>

@@ -122,9 +122,9 @@ const Hero = () => {
               mb-10
             "
           >
-            Software Engineering and frontend developer passionate about
-            building modern, responsive, and user-friendly web applications
-            using React, Tailwind CSS, and modern web technologies.
+            Software Engineer and frontend developer passionate about building
+            modern, responsive, and user-friendly web applications using React,
+            Tailwind CSS, and modern web technologies.
           </motion.p>
 
           {/* Buttons */}
@@ -195,7 +195,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/banaz-sleman-b6b181256"
               target="_blank"
               className="
                 text-3xl
